@@ -20,583 +20,601 @@
 </head>
 
 <body>
-    <form action="backend.php">
-        <table class="blueTable">
-            <tr>
-                <th colspan="2">
-                    Personal Data
-                </th>
-            </tr>
+    <nav>
+        <a class="navop homenav" href="#">Home</a>
+        <a class="navop" href="#">About Us</a>
+        <a class="navop" href="#">Service</a>
+        <a class="navop" href="#">Product</a>
+        <a class="navop" href="#">Contact Us</a>
+    </nav>
+    <header>
+        <marquee behavior="" direction="">Fill the form very carefully . before submitting form read term & condition of this form carefully.</marquee>
+        <form action="backend.php">
+            <table class="blueTable">
+                <tr>
+                    <th colspan="2">
+                        Personal Data
+                    </th>
+                </tr>
 
-            <tr>
-                <td><label for="name">Name</label></td>
-                <td><input class="css-input" type="text" id="name" required autofocus></td>
-            </tr>
-            <tr>
-                <td><label for="adhar">Addhar Card No.</label></td>
-                <td><input required class="css-input" type="number" id="adhar"></td>
-            </tr>
-            <tr>
-                <td><label for="photo">upload your photo</label></td>
-                <td><input required class="css-input" type="file" id="photo"></td>
-            </tr>
-            <tr>
-                <th colspan="2">Institute offers Doctoral Programmers in following Disciplines</th>
-            </tr>
-            <tr>
-                <td><label for="dept">Name of your dept.</label></td>
-                <td><select class="css-input" id="dept">
-                        <option>CSE</option>
-                        <option>EC</option>
-                        <option>EEE</option>
-                        <option>CIVIL</option>
-                        <option>ME</option>
-                    </select></td>
-            </tr>
-            <tr>
-                <td><label for="tos">Type of the student</label></td>
-                <td>
-                    <input class="css-input" type="radio" id="tos1" name="tosn"><label for="tos1">Full time With
-                        Assistanship</label> <br>
-                    <input class="css-input" type="radio" id="tos2" name="tosn"><label for="tos2">Full time With</label>
-                    Assistanship(Sponsored)<br>
-                    <input class="css-input" type="radio" id="tos3" name="tosn"><label for="tos3">Full time With
-                        Assistanship(Self financed)</label>
-                    <br>
-                    <input class="css-input" type="radio" id="tos4" name="tosn"><label for="tos4"> Part Time</label><br>
-                </td>
-            </tr>
-            <tr>
-                <td><label for="paoyr">Proposed area of your Research</label></td>
-                <td>
-                    <input class="css-input" type="text" id="paoyr">
-                </td>
-            </tr>
-            <tr>
-                <th colspan="2">Write Date, Month and year Separately of your Data of Birth(only in mumber)</th>
-            </tr>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input class="css-input" type="text" id="name" required autofocus></td>
+                </tr>
+                <tr>
+                    <td><label for="adhar">Addhar Card No.</label></td>
+                    <td><input required class="css-input" type="number" id="adhar"></td>
+                </tr>
+                <tr>
+                    <td><label for="photo">upload your photo</label></td>
+                    <td><input required class="css-input" type="file" id="photo"></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Institute offers Doctoral Programmers in following Disciplines</th>
+                </tr>
+                <tr>
+                    <td><label for="dept">Name of your dept.</label></td>
+                    <td><select class="css-input" id="dept">
+                            <option>CSE</option>
+                            <option>EC</option>
+                            <option>EEE</option>
+                            <option>CIVIL</option>
+                            <option>ME</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="tos">Type of the student</label></td>
+                    <td>
+                        <input class="css-input" type="radio" id="tos1" name="tosn"><label for="tos1">Full time With
+                            Assistanship</label> <br>
+                        <input class="css-input" type="radio" id="tos2" name="tosn"><label for="tos2">Full time
+                            With</label>
+                        Assistanship(Sponsored)<br>
+                        <input class="css-input" type="radio" id="tos3" name="tosn"><label for="tos3">Full time With
+                            Assistanship(Self financed)</label>
+                        <br>
+                        <input class="css-input" type="radio" id="tos4" name="tosn"><label for="tos4"> Part
+                            Time</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="paoyr">Proposed area of your Research</label></td>
+                    <td>
+                        <input class="css-input" type="text" id="paoyr">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">Write Date, Month and year Separately of your Data of Birth(only in mumber)</th>
+                </tr>
 
-            <tr>
-                <td><label for="dob">Date of Birth</label></td>
-                <td>
-                    <select required class="css-input" id="dob">
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4</option>
-                        <option value="">5</option>
-                        <option value="">6</option>
-                        <option value="">7</option>
-                        <option value="">8</option>
-                        <option value="">9</option>
-                        <option value="">10</option>
-                        <option value="">11</option>
-                        <option value="">12</option>
-                        <option value="">13</option>
-                        <option value="">14</option>
-                        <option value="">15</option>
-                        <option value="">16</option>
-                        <option value="">17</option>
-                        <option value="">18</option>
-                        <option value="">19</option>
-                        <option value="">20</option>
-                        <option value="">21</option>
-                        <option value="">22</option>
-                        <option value="">23</option>
-                        <option value="">24</option>
-                        <option value="">25</option>
-                        <option value="">26</option>
-                        <option value="">27</option>
-                        <option value="">28</option>
-                        <option value="">29</option>
-                        <option value="">30</option>
-                        <option value="">31</option>
-                    </select>
-                </td>
-            </tr>
-            </tr>
-            <tr>
-                <td><label for="mob">Month of Birth</label></td>
-                <td>
-                    <select required class="css-input" id="mob">
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4</option>
-                        <option value="">5</option>
-                        <option value="">6</option>
-                        <option value="">7</option>
-                        <option value="">8</option>
-                        <option value="">9</option>
-                        <option value="">10</option>
-                        <option value="">11</option>
-                        <option value="">12</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td><label for="yob">Month of Birth</label></td>
-                <td>
-                    <select required class="css-input" id="yob">
-                        <option>1990</option>
-                        <option>1991</option>
-                        <option>1992</option>
-                        <option>1993</option>
-                        <option>1994</option>
-                        <option>1995</option>
-                        <option>1996</option>
-                        <option>1997</option>
-                        <option>1998</option>
-                        <option>1999</option>
-                        <option value="">2000</option>
-                        <option value="">2001</option>
-                        <option value="">2002</option>
-                        <option value="">2003</option>
-                        <option value="">2004</option>
-                        <option value="">2005</option>
-                        <option value="">2006</option>
-                        <option value="">2007</option>
-                        <option value="">2008</option>
-                        <option value="">2009</option>
-                        <option value="">2010</option>
-                        <option value="">2011</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td><label required for="gen" required>Gender</label></td>
-                <td>
-                    <input class="css-input" type="radio" id="male" name="gen"><label for="male">Male</label> <br>
-                    <input class="css-input" type="radio" id="female" name="gen"><label for="female">Female</label> <br>
-                    <input class="css-input" type="radio" id="other" name="gen"><label for="other">Other</label>
-                </td>
-            </tr>
-            <tr>
-                <td><label for="mars" required>Marital Status</label></td>
-                <td>
-                    <input class="css-input" type="radio" id="m" name="mars"><label for="m">Married</label> <br>
-                    <input class="css-input" type="radio" id="um" name="mars"><label for="um">Unmarried</label><br>
-                </td>
-            </tr>
-            <tr>
-                <td><label for="cate">Category</label></td>
-                <td>
-                    <select required class="css-input" name="" id="cate">
-                        <option value="" disabled selected>Select</option>
-                        <option value="">General</option>
-                        <option value="">OBC</option>
-                        <option value="">SC</option>
-                        <option value="">ST</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="nat"> Nationality</label>
-                </td>
-                <td>
-                    <input required class="css-input" type="text" name="" id="nat">
-                </td>
-            </tr>
-            <tr>
-                <td><label for="odi" required>Domicile of Odisha</label></td>
-                <td>
-                    <input required class="css-input" type="radio" id="yes" name="odi"><label for="yes">Yes</label><br>
-                    <input class="css-input" type="radio" id="no" name="odi"><label for="no">No</label><br>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="mname">Mother's Name</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="mname">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="fname">Father's Name</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="fname">
-                </td>
-            </tr>
-            <tr>
-                <th colspan="2">Write Date, Month and year Separately of your Data of Birth(only in mumber)</th>
-            </tr>
-            <tr>
-                <td>
-                    <label for="pawpn">Present Address With Phone Number of residene and parents</label>
-                </td>
-                <td>
-                    <textarea required class="css-input" name="" id="pawpn" cols="30" rows="5"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="paradd">Paramanent Address</label>
-                </td>
-                <td>
-                    <textarea class="css-input" name="" id="paradd" cols="30" rows="5"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="phone">Phone No of Candidate</label>
-                </td>
-                <td>
-                    <input required class="css-input" type="number" name="" id="phone">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="emailid">Email ID No of Candidate</label>
-                </td>
-                <td>
-                    <input required class="css-input" type="email" name="" id="emailid">
-                </td>
-            </tr>
-            <tr>
-                <th colspan="2">
-                    Fill up rest all the fields and click on submit.After submission of the form "application id" will
-                    be generated . The click on "pay omline"(showing above fill up from them)
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    <label for="SBCollect">SBCollect Reference Number/Online payment transaction number</label>
-                </td>
-                <td>
-                    <input class="css-input" type="number" name="" id="SBCollect">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="payment-transaction-date">Online payment transaction date</label>
-                </td>
-                <td>
-                    <input class="css-input" type="date" name="" id="payment-transaction-date">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="bank-name">Bank Name</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="bank-name">
-                </td>
-            </tr>
-            <tr>
-                <th colspan="2">Details of class 10</th>
-            </tr>
-            <tr>
-                <td>
-                    <label for="school-name">School Name(10th)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="school-name">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="b-name">Board Name(10th)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="b-name">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="y-passing">Year of passing(10th)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="number" name="" id="y-passing">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="sub10th">Subject(10th)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="sub10th">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="per10th">Percentage(10th)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="number" name="" id="per10th">
-                </td>
-            </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth</label></td>
+                    <td>
+                        <select required class="css-input" id="dob">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                            <option value="">17</option>
+                            <option value="">18</option>
+                            <option value="">19</option>
+                            <option value="">20</option>
+                            <option value="">21</option>
+                            <option value="">22</option>
+                            <option value="">23</option>
+                            <option value="">24</option>
+                            <option value="">25</option>
+                            <option value="">26</option>
+                            <option value="">27</option>
+                            <option value="">28</option>
+                            <option value="">29</option>
+                            <option value="">30</option>
+                            <option value="">31</option>
+                        </select>
+                    </td>
+                </tr>
+                </tr>
+                <tr>
+                    <td><label for="mob">Month of Birth</label></td>
+                    <td>
+                        <select required class="css-input" id="mob">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="yob">Month of Birth</label></td>
+                    <td>
+                        <select required class="css-input" id="yob">
+                            <option>1990</option>
+                            <option>1991</option>
+                            <option>1992</option>
+                            <option>1993</option>
+                            <option>1994</option>
+                            <option>1995</option>
+                            <option>1996</option>
+                            <option>1997</option>
+                            <option>1998</option>
+                            <option>1999</option>
+                            <option value="">2000</option>
+                            <option value="">2001</option>
+                            <option value="">2002</option>
+                            <option value="">2003</option>
+                            <option value="">2004</option>
+                            <option value="">2005</option>
+                            <option value="">2006</option>
+                            <option value="">2007</option>
+                            <option value="">2008</option>
+                            <option value="">2009</option>
+                            <option value="">2010</option>
+                            <option value="">2011</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label required for="gen" required>Gender</label></td>
+                    <td>
+                        <input class="css-input" type="radio" id="male" name="gen"><label for="male">Male</label> <br>
+                        <input class="css-input" type="radio" id="female" name="gen"><label for="female">Female</label>
+                        <br>
+                        <input class="css-input" type="radio" id="other" name="gen"><label for="other">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mars" required>Marital Status</label></td>
+                    <td>
+                        <input class="css-input" type="radio" id="m" name="mars"><label for="m">Married</label> <br>
+                        <input class="css-input" type="radio" id="um" name="mars"><label for="um">Unmarried</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="cate">Category</label></td>
+                    <td>
+                        <select required class="css-input" name="" id="cate">
+                            <option value="" disabled selected>Select</option>
+                            <option value="">General</option>
+                            <option value="">OBC</option>
+                            <option value="">SC</option>
+                            <option value="">ST</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nat"> Nationality</label>
+                    </td>
+                    <td>
+                        <input required class="css-input" type="text" name="" id="nat">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="odi" required>Domicile of Odisha</label></td>
+                    <td>
+                        <input required class="css-input" type="radio" id="yes" name="odi"><label
+                            for="yes">Yes</label><br>
+                        <input class="css-input" type="radio" id="no" name="odi"><label for="no">No</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mname">Mother's Name</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="mname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fname">Father's Name</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="fname">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">Write Date, Month and year Separately of your Data of Birth(only in mumber)</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pawpn">Present Address With Phone Number of residene and parents</label>
+                    </td>
+                    <td>
+                        <textarea required class="css-input" name="" id="pawpn" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="paradd">Paramanent Address</label>
+                    </td>
+                    <td>
+                        <textarea class="css-input" name="" id="paradd" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone No of Candidate</label>
+                    </td>
+                    <td>
+                        <input required class="css-input" type="number" name="" id="phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="emailid">Email ID No of Candidate</label>
+                    </td>
+                    <td>
+                        <input required class="css-input" type="email" name="" id="emailid">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        Fill up rest all the fields and click on submit.After submission of the form "application id"
+                        will
+                        be generated . The click on "pay omline"(showing above fill up from them)
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="SBCollect">SBCollect Reference Number/Online payment transaction number</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="number" name="" id="SBCollect">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="payment-transaction-date">Online payment transaction date</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="date" name="" id="payment-transaction-date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bank-name">Bank Name</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="bank-name">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">Details of class 10</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="school-name">School Name(10th)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="school-name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="b-name">Board Name(10th)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="b-name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="y-passing">Year of passing(10th)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="number" name="" id="y-passing">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sub10th">Subject(10th)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="sub10th">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="per10th">Percentage(10th)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="number" name="" id="per10th">
+                    </td>
+                </tr>
 
-            <tr>
-                <th colspan="2">Details of class 10+2/Intermediate Examination</th>
-            </tr>
-            <tr>
-                <td>
-                    <label for="school-name-plus2">College Name of +2/Intermediate Examination</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="school-name-plus2">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="b-i-name">Board / Unit 12 / Diploma(10th)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="b-i-name">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="y-passing-i">Year of passing(10th/Deploma)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="number" name="" id="y-passing-i">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="spe12">Specialization(12th/Diploma)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="spe12">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="per-plus2-deplo">Percentage(+2 / Deploma)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="number" name="" id="per-plus2-deplo">
-                </td>
-            </tr>
+                <tr>
+                    <th colspan="2">Details of class 10+2/Intermediate Examination</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="school-name-plus2">College Name of +2/Intermediate Examination</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="school-name-plus2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="b-i-name">Board / Unit 12 / Diploma(10th)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="b-i-name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="y-passing-i">Year of passing(10th/Deploma)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="number" name="" id="y-passing-i">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="spe12">Specialization(12th/Diploma)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="spe12">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="per-plus2-deplo">Percentage(+2 / Deploma)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="number" name="" id="per-plus2-deplo">
+                    </td>
+                </tr>
 
-            <tr>
-                <th colspan="2">Details of Graduation</th>
-            </tr>
-            <tr>
-                <td>
-                    <label for="name-Graduation">Name Graduation</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="name-Graduation">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="school-name-Graduation">College Name (Graduation)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="school-name-Graduation">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="y-passing-gra">Year of passing(Graduation)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="number" name="" id="y-passing-gra">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="spe-gra">Specialization(Graduation)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="spe-gra">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="per-gra">Percentage / CGPA (Graduation)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="number" name="" id="per-gra">
-                </td>
-            </tr>
+                <tr>
+                    <th colspan="2">Details of Graduation</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name-Graduation">Name Graduation</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="name-Graduation">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="school-name-Graduation">College Name (Graduation)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="school-name-Graduation">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="y-passing-gra">Year of passing(Graduation)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="number" name="" id="y-passing-gra">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="spe-gra">Specialization(Graduation)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="spe-gra">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="per-gra">Percentage / CGPA (Graduation)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="number" name="" id="per-gra">
+                    </td>
+                </tr>
 
-            <tr>
-                <th colspan="2">Details of Master Course</th>
-            </tr>
-            <tr>
-                <td>
-                    <label for="name-Master">Name Master Course</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="name-Master">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="school-name-Master">College Name (Master Course)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="school-name-Master">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="y-passing-mas">Year of passing(Master Course)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="number" name="" id="y-passing-mas">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="spe-mas">Specialization(Master Course)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="spe-mas">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="per-mas">Percentage / CGPA(Master Course)</label>
-                </td>
-                <td>
-                    <input class="css-input" type="number" name="" id="per-mas">
-                </td>
-            </tr>
+                <tr>
+                    <th colspan="2">Details of Master Course</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name-Master">Name Master Course</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="name-Master">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="school-name-Master">College Name (Master Course)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="school-name-Master">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="y-passing-mas">Year of passing(Master Course)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="number" name="" id="y-passing-mas">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="spe-mas">Specialization(Master Course)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="spe-mas">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="per-mas">Percentage / CGPA(Master Course)</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="number" name="" id="per-mas">
+                    </td>
+                </tr>
 
-            <tr>
-                <th colspan="2">Additional Qualification(if any)</th>
-            </tr>
-            <tr>
-                <td>
-                    <label for="name-o-qua">Name of Qualification</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="name-o-qua">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="name-o-oth-deg">Name of Degree</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="name-o-oth-deg">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="y-passing-od">Year of passing</label>
-                </td>
-                <td>
-                    <input class="css-input" type="number" name="" id="y-passing-od">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="spe-od">Specialization</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" name="" id="spe-od">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="per-od">Percentage</label>
-                </td>
-                <td>
-                    <input class="css-input" type="number" name="" id="per-od">
-                </td>
-            </tr>
+                <tr>
+                    <th colspan="2">Additional Qualification(if any)</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name-o-qua">Name of Qualification</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="name-o-qua">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name-o-oth-deg">Name of Degree</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="name-o-oth-deg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="y-passing-od">Year of passing</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="number" name="" id="y-passing-od">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="spe-od">Specialization</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" name="" id="spe-od">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="per-od">Percentage</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="number" name="" id="per-od">
+                    </td>
+                </tr>
 
-            <tr>
-                <th colspan="2">Other Course Details</th>
-            </tr>
-            <tr>
-                <td>
-                    <label for="oth-cor-1">Course name, College Name, Mark, Year of Passing</label>
-                </td>
-                <td>
-                    <textarea class="css-input" id="oth-cor-1" cols="30" rows="5"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <th colspan="2">Research & Publication</th>
-            </tr>
-            <tr>
-                <td>
-                    <label for="list-pub">List of Publication in Indexed journal(Given number of publication)</label>
-                </td>
-                <td>
-                    <textarea class="css-input" id="list-pub" cols="30" rows="5"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="list-pub-con">List of Publication in Conference(Given number of publication)</label>
-                </td>
-                <td>
-                    <textarea class="css-input" id="list-pub-con" cols="30" rows="5"></textarea>
-                </td>
-            </tr>
+                <tr>
+                    <th colspan="2">Other Course Details</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="oth-cor-1">Course name, College Name, Mark, Year of Passing</label>
+                    </td>
+                    <td>
+                        <textarea class="css-input" id="oth-cor-1" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">Research & Publication</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="list-pub">List of Publication in Indexed journal(Given number of
+                            publication)</label>
+                    </td>
+                    <td>
+                        <textarea class="css-input" id="list-pub" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="list-pub-con">List of Publication in Conference(Given number of publication)</label>
+                    </td>
+                    <td>
+                        <textarea class="css-input" id="list-pub-con" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
 
-            <tr>
-                <td>
-                    <label for="list-book-mono">List of Books & Monographs(Specify number of Books & Monographs)</label>
-                </td>
-                <td>
-                    <textarea class="css-input" id="list-book-mono" cols="30" rows="5"></textarea>
-                </td>
-            </tr>
+                <tr>
+                    <td>
+                        <label for="list-book-mono">List of Books & Monographs(Specify number of Books &
+                            Monographs)</label>
+                    </td>
+                    <td>
+                        <textarea class="css-input" id="list-book-mono" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
 
-            <tr>
-                <td>
-                    <label for="list-cr">List of Patent / Copyright(Specify number of Patent / Copyright)</label>
-                </td>
-                <td>
-                    <textarea class="css-input" id="list-cr" cols="30" rows="5"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="list-cr">Guidane at master level (Specify number only)</label>
-                </td>
-                <td>
-                    <input type="number" class="css-input" id="list-cr" cols="30" rows="5"></input>
-                </td>
-            </tr>
-            <tr>
-                <th colspan="2">Describe your personal goals & how your study in TheTechPoint will help you to achive
-                    these goals</th>
-            </tr>
-            <tr>
-                <td>
-                    <label for="ste-of-pur">Statement of Purpose</label>
-                </td>
-                <td>
-                    <input class="css-input" type="text" id="ste-of-pur">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="how-know">How do you know about this programme</label>
-                </td>
-                <td>
-                    <select class="css-input" type="text" id="how-know">
-                        <option disabled selected>Choose</option>
-                        <option>Relative</option>
-                        <option>Friends</option>
-                        <option>From Internet</option>
-                        <option>From News Paper</option>
-                    </select>
-                </td>
-            </tr>
-            <tr class="foot-row">
-                <td colspan="2">
-                    <input type="checkbox" id="term" class="css-input"><label for="term">I Agree all Term &
-                        Condition</label> <br>
-                    <input class="btn" type="submit" value="Submit">
-                </td>
-            </tr>
-        </table>
-    </form>
+                <tr>
+                    <td>
+                        <label for="list-cr">List of Patent / Copyright(Specify number of Patent / Copyright)</label>
+                    </td>
+                    <td>
+                        <textarea class="css-input" id="list-cr" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="list-cr">Guidane at master level (Specify number only)</label>
+                    </td>
+                    <td>
+                        <input type="number" class="css-input" id="list-cr" cols="30" rows="5"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">Describe your personal goals & how your study in TheTechPoint will help you to
+                        achive
+                        these goals</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ste-of-pur">Statement of Purpose</label>
+                    </td>
+                    <td>
+                        <input class="css-input" type="text" id="ste-of-pur">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="how-know">How do you know about this programme</label>
+                    </td>
+                    <td>
+                        <select class="css-input" type="text" id="how-know">
+                            <option disabled selected>Choose</option>
+                            <option>Relative</option>
+                            <option>Friends</option>
+                            <option>From Internet</option>
+                            <option>From News Paper</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="foot-row">
+                    <td colspan="2">
+                        <input type="checkbox" id="term" class="css-input"><label for="term">I Agree all Term &
+                            Condition</label> <br>
+                        <input class="btn" type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </header>
 </body>
 
 </html>
