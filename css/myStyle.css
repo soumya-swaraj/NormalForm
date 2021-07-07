@@ -1,6 +1,6 @@
 body {
     padding: 0px;
-    margin: 0px;
+    margin : 0px;
 }
 
 th {
@@ -161,4 +161,29 @@ table.blueTable tfoot .links a {
 .btn:hover {
     background     : #3cb0fd;
     text-decoration: none;
+}
+nav{
+    padding: 20px;
+    background-color: #053742;
+    text-align: right;
+}
+
+.navop{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    padding:20px;
+    text-decoration: none;
+}
+
+.navop:hover{
+    color: red;
+    text-decoration: none;
+}
+.homenav{
+    color: red;
+}
+marquee{
+    font-family: 'Ubuntu', sans-serif;
+    color: #053742;
+    margin: 10px 20px;
 }
