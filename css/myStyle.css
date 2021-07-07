@@ -163,6 +163,7 @@ table.blueTable tfoot .links a {
     text-decoration: none;
 }
 nav{
+    width:100%;
     padding: 20px;
     background-color: #053742;
     text-align: right;
@@ -172,6 +173,7 @@ nav{
     font-family: 'Ubuntu', sans-serif;
     color: white;
     padding:20px;
+    padding-right: 50px;
     text-decoration: none;
 }
 
